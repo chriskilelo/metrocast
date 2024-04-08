@@ -1,4 +1,16 @@
 {
+  "name": "metrocast",
+  "version": "1.0.0",
+  "description": "A backend Node JS application showing integration to the 'tomorrow.io' weather API",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/chriskilelo/metrocast.git"
+  },
   "dependencies": {
     "colors": "^1.4.0",
     "dotenv": "^16.4.5",
@@ -6,5 +18,17 @@
     "moment": "^2.30.1",
     "mongoose": "^8.2.4",
     "nodemon": "^3.1.0"
-  }
+  },  
+  "keywords": [
+    "tomorrow.io",
+    "weather",
+    "forecast",
+    "metrocast"
+  ],
+  "author": "Chris Kilelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chriskilelo/metrocast/issues"
+  },
+  "homepage": "https://github.com/chriskilelo/metrocast#readme"
 }
